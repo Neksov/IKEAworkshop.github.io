@@ -9,14 +9,9 @@ import generateFooter from './generateFooter.js';
 import {
   loadData
 } from './loadData.js';
-import {
-  getData
-} from './getData.js';
-
 generateHeader();
 generateCatalog();
 generateSubCatalog();
 generateFooter();
 catalog();
 loadData();
-getData();
